@@ -1,0 +1,5 @@
+.headlines {
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}

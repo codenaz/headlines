@@ -1,0 +1,38 @@
+[class*="entypo-"]:before {
+  font: 1.4em 'entypo', san-serif;
+}
+
+.select-filter {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  color: #aaa;
+  cursor: pointer;
+  overflow: hidden;
+  padding-right: 3em;
+  position: relative;
+  width: 25%;
+  margin: 2em auto;
+}
+
+.select {
+  -webkit-appearance: none;
+  background-color: #eee;
+  border-width: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 1em 1em;
+  width: calc(100% + 2em);
+}
+
+.select:focus {
+  outline: none;
+}
+
+.select-icon {
+  position: absolute;
+  top: .8em;
+  right: 1em;
+}
